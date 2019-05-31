@@ -1,0 +1,43 @@
+{
+  "name": "authenticationapp",
+  "version": "1.0.0",
+  "description": "pratice for sso",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvneves2010/authenticationApp.git"
+  },
+  "keywords": [
+    "sso",
+    "IBMid",
+    "passport"
+  ],
+  "author": "Leonardo Neves",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/lvneves2010/authenticationApp/issues"
+  },
+  "homepage": "https://github.com/lvneves2010/authenticationApp#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
