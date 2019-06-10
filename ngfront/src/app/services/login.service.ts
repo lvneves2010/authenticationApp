@@ -6,7 +6,7 @@ import { TestBed } from '@angular/core/testing';
 // })
 export class LoginService {
 
-  exampleUser = [{name : 'Leonardo', username : 'Vinicius', email : 'lvneves@teste.com'}];
+  exampleUser = [{name : 'Leonardo', username : 'Vinicius', email : 'lvneves@teste.com', password: 'teste'}];
 
   constructor() { }
 

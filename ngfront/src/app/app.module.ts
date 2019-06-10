@@ -8,6 +8,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { IndexComponent } from './components/index/index.component';
 import { LoginService } from './services/login.service';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoginService } from './services/login.service';
     FormsModule
   ],
   providers: [
-    LoginService
+    LoginService,
+    LoginComponent
   ],
   bootstrap: [AppComponent]
 })
