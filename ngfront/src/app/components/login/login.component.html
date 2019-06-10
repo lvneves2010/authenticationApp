@@ -1,22 +1,14 @@
 <h2 class="page-header">Account Login</h2>
 
-<form>
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" >
 <!-- <form method="post" action="/users/login"> -->
     <div class="form-group">
         <label>Username</label>
-        <input type="text" class="form-control" name="username" placeholder="Username">
+        <input type="text" class="form-control" name="username" placeholder="Username" ngModel>
     </div>
     <div class="form-group">
         <label>Password</label>
-        <input type="password" class="form-control" name="password" placeholder="Password">
+        <input type="password" class="form-control" name="password" placeholder="Password" ngModel>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
-
-<h1>Lista</h1>
-<ul>
-  <li >{{ name }}</li>
-  <li >{{ username }}</li>
-  <li >{{ email }}</li>
-</ul>
