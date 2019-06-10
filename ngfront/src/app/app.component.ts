@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  
+
   title = 'ngfront';
+  success_msg = '';
+  error_msg = '';
+  error = '';
+
+
+
 }

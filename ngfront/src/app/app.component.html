@@ -28,9 +28,9 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-lg-12">
-        <div *ngIf = "(success_msg)" class="alert alert-success">success_msg</div>
-        <div *ngIf = "(error_msg)" class="alert alert-danger">error_msg</div>
-        <div *ngIf = "(error)" class="alert alert-danger">error</div>
+        <div *ngIf = "(success_msg)" class="alert alert-success">{{success_msg}}</div>
+        <div *ngIf = "(error_msg)" class="alert alert-danger">{{error_msg}}</div>
+        <div *ngIf = "(error)" class="alert alert-danger">{{error}}</div>
         <router-outlet></router-outlet>
       </div>
     </div>
